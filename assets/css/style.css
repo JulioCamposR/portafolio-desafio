@@ -1,0 +1,204 @@
+/* General */
+body {
+    font-family: "Roboto", sans-serif;
+    background: rgb(223,223,223);
+    background: radial-gradient(circle, rgba(223,223,223,1) 0%, rgba(11,29,41,1) 61%, rgba(5,12,18,1) 100%);
+    color: #dfdfdf;
+}
+
+html {
+    scroll-behavior: smooth; 
+}
+
+hr {
+    background-color: #dfdfdf;
+}
+
+h1,h2,h3,a{
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+}
+
+.git-img {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+
+}
+
+/*botones*/
+.btn-primary {
+    background-color: #dfdfdf;
+    border: none;
+    padding: 12px 30px;
+    font-size: 1.2rem;
+    border-radius: 50px; 
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    transform: translateY(-2px);
+    background-color: #0b1d29;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+}
+
+/* Navbar */
+
+#navbarNav .nav-link {
+    color: #fff; /* Aplica color blanco a todos los enlaces */
+}
+.navbar-custom {
+    z-index: 1;
+    width: 100%;
+}
+
+.navbar-nav .nav-link {
+    color: #dfdfdf;
+}
+
+/* Carousel */
+
+.carousel-caption {
+    top: 30%; 
+    transform: translateY(-30%);
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.8); 
+}
+
+.carousel-caption h1 {
+    font-size: 3.5rem; 
+    font-weight: bold;
+}
+
+.carousel-caption h3 {
+    font-size: 2rem; 
+}
+
+.carousel-item img {
+    height: 100vh; 
+    object-fit: cover;
+}
+
+.carousel {
+    height: 100px; 
+}
+
+.carousel-inner {
+    position: relative;
+    height: 100vh; 
+}
+
+/* Cards */
+.card {
+    background-color: #dfdfdf; /* Fondo para toda la tarjeta */
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+
+.card img {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.card-body {
+    background-color: #dfdfdf; /* Asegura que el fondo del contenido también sea gris */
+    padding: 20px;
+    text-align: center;
+}
+
+.card h5 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.card p {
+    color: #0b1d29;
+}
+
+/* Footer */
+.footer {
+    color: #dfdfdf;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    background: rgba(0, 0, 0, 0.5); 
+}
+
+.icon-container a {
+    color: #dfdfdf;
+    margin-left: 15px;
+}
+
+.footer h4 {
+    margin-left: 15px;
+}
+.container2 button,
+#botoncolor {
+    background-color: #0b1d29;
+    color: #dfdfdf;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* Links */
+
+a {
+    color: #0b1d29; /* Color normal */
+}
+
+a:hover {
+    color: #0b1d29; /* Color cuando el mouse está sobre el enlace */
+}
+
+a:visited {
+    color: #050c12; /* Color después de haber sido visitado */
+}
+
+a:active {
+    color: #050c12; /* Color mientras el enlace está siendo clicado */
+}
+/* Icons */
+.icon-container {
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.icon {
+    color: #dfdfdf;
+    font-size: 24px;
+}
+
+/* Icon Colors */
+.fa-html5 {
+    color: #e34c26 !important;
+}
+.fa-css3-alt {
+    color: #264de4 !important;
+}
+.fa-sass {
+    color: #cf649a !important;
+}
+.fa-bootstrap {
+    color: #563d7c !important;
+}
+.fa-git-alt {
+    color: #f34f29 !important;
+}
+.fa-github,
+.fa-linkedin,
+.fa-envelope {
+    color: #333 !important;
+}
+.fa-js {
+    color: #f7df1e !important;
+}
+.fa-vuejs {
+    color: #42b883 !important;
+}
